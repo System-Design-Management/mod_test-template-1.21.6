@@ -36,10 +36,9 @@ MOD開発の学習には、以下のFabric公式ドキュメントが役立ち�
 
 * **Fabric ドキュメント (Getting Started):**
     * https://docs.fabricmc.net/develop/getting-started/
-    * https://maven.fabricmc.net/docs/fabric-loader-0.11.3/index.html
-    * https://maven.fabricmc.net/docs/fabric-api-0.129.0+1.21.7/index.html
-    * https://maven.fabricmc.net/docs/yarn-21w05b+build.11/index.html
-    * https://maven.fabricmc.net/docs/yarn-20w51a+build.9/index.html
+    * https://maven.fabricmc.net/docs/yarn-1.21.6+build.1/
+    * https://maven.fabricmc.net/docs/fabric-api-0.128.2+1.21.6/
+    * https://maven.fabricmc.net/docs/fabric-loader-0.17.3/
 
 ## 📜 ライセンス (License)
 
