@@ -3,7 +3,7 @@
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-%5B1.21.6%5D-green.svg)](https://www.minecraft.net)
 [![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-lightgrey.svg)](https://fabricmc.net/)
 
-Minecraft (Java Edition) Fabric向けMODの試作・実験用リポジトリです。ご自由にお使いください。
+Minecraft (Java Edition) Fabric向けMODの試作・実験用リポジトリです。
 
 ---
 
