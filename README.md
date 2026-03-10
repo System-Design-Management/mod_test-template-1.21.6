@@ -25,10 +25,30 @@ Minecraft (Java Edition) Fabric向けMODの試作・実験用リポジトリで�
 * **Mod Loader:** [Fabric Loader](https://fabricmc.net/use/installer/)
 * **API:** [Fabric API](https://modrinth.com/mod/fabric-api)
 
-## 📥 テスト実行方法 (Testing)
+## セットアップ手順
 
-試作段階のため、ビルド済みの `.jar` ファイルの配布は現在行っていません。
-このMODをテストする場合は、お手数ですが以下の「開発者向け」セクションを参照し、ご自身でビルド（コンパイル）してください。
+Firstly, clone this repository using Git:
+
+- 開発者向け
+```sh
+git clone git@github.com:System-Design-Management/box-out-1.21.6.git
+```
+
+- mod を利用する方向け
+```sh
+git clone https://github.com/System-Design-Management/box-out-1.21.6.git
+```
+
+Once you've opened the project in your IDE, it should automatically load the project's Gradle configuration and perform the necessary setup tasks.
+
+IntelliJ IDEA
+- If you're using the command line, you can use the following Gradle commands to start the game:
+  - `./gradlew runClient`: Start the game in client mode.（ゲーム画面が起動）
+  - `./gradlew runServer`: Start the game in server mode.（ログのみ表示される）
+-  mod の挙動をゲーム画面で確認するときは、サーバーモードでゲームを開始したままクライアントモードでゲームを開始すればよい。
+
+[Fabric公式ドキュメント](https://docs.fabricmc.net/develop/getting-started/)を参考にしてください。
+IDEは[IntelliJ IDEA](https://www.jetbrains.com/ja-jp/idea/) (community版) を推奨しています。（無料）
 
 ## 📚 参考ドキュメント (Reference)
 
