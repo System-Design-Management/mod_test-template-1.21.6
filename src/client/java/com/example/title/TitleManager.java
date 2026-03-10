@@ -10,7 +10,7 @@ public class TitleManager {
     public static void  showCustomTitle(MinecraftClient client) {
         // メインタイトルを設定
         MutableText mainText = Text.literal("これが");
-        MutableText redPart = Text.literal("t").formatted(Formatting.RED, Formatting.UNDERLINE);
+        MutableText redPart = Text.literal("s").formatted(Formatting.RED, Formatting.UNDERLINE);
         MutableText greenPart = Text.literal("コマンド").formatted(Formatting.GREEN, Formatting.UNDERLINE);
         MutableText yellowPart = Text.literal("です").formatted(Formatting.YELLOW);
         mainText.append(redPart).append(greenPart).append(yellowPart);
