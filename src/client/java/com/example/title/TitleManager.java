@@ -12,7 +12,7 @@ public class TitleManager {
         MutableText mainText = Text.literal("これが");
         MutableText redPart = Text.literal("title").formatted(Formatting.RED, Formatting.UNDERLINE);
         MutableText greenPart = Text.literal("コマンド").formatted(Formatting.GREEN, Formatting.UNDERLINE);
-        MutableText yellowPart = Text.literal("です").formatted(Formatting.YELLOW);
+        MutableText yellowPart = Text.literal("ですよ！").formatted(Formatting.YELLOW);
         mainText.append(redPart).append(greenPart).append(yellowPart);
 
         // 単位はTick。20 Ticks = 1秒
